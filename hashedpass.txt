@@ -1,0 +1,17 @@
+ Hashed Password Kya Hota Hai?
+1️⃣ Hashed Password Kya Hota Hai?
+Hashed password ek encrypted version hota hai jo ek special algorithm se generate hota hai. Jab koi user password enter karta hai, us password ko directly database me store karna unsafe hota hai. Isliye hum hashing ka use karte hain.
+
+2️⃣ Hashing vs. Encryption
+Hashing: One-way process hai (matlab hash ko wapas original password me convert nahi kiya ja sakta).
+Encryption: Two-way process hai (matlab encrypted password ko decrypt kar sakte hain).
+3️⃣ Example:
+Jab user "mypassword123" password enter karta hai, hum usko bcrypt se hash karte hain:
+
+
+1 user schema email, phone number, address "done"
+2 upload img 
+3 user can edit profile
+4 edit profile api 
+5 admin panel
+6 JWT 
